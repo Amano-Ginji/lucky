@@ -177,6 +177,6 @@ function run_hot() {
 #run_model
 #run_random
 #run_hot 7
-#run_hot 30
+run_hot 30
 #run_hot 60
-run_hot 90
+#run_hot 90
