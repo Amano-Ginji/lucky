@@ -4,6 +4,9 @@ date="20170130"
 
 mode=0
 
+mkdir -p data
+mkdir -p result
+
 function random_range() {
   local beg=$1
   local end=$2

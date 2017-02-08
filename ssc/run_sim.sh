@@ -8,6 +8,9 @@ iter_num=100
 start_pos=$((${samples_num}-$steps*${iter_num}))
 end_pos=${samples_num}
 
+mkdir -p data
+mkdir -p result
+
 function run_model() {
   echo ">>>>>> run model ..."
 
